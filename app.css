@@ -8,27 +8,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .container {
-  display: block;
-  margin: 0 auto;
+  display: flex;
   background-color: white;
   flex-direction: column;
-  border-radius: 30px;
+  border-radius: 16px;
   padding: 15px 15px;
+  box-shadow: 10px 7px 7px hsl(216, 16%, 39%);
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 30px;
+  height: 350px;
+  width: 350px;
+  border-radius: 16px;
+  margin: 0 auto;
 }
 
 h1 {
   font-family: "Outfit";
   font-weight: 700;
   text-align: center;
+  font-size: 28px;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
@@ -36,4 +40,5 @@ p {
   font-weight: 400;
   text-align: center;
   font-size: 15px;
+  color: hsl(216, 15%, 48%);
 }
